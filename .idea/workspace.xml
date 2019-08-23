@@ -2,7 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b077bf9-ab5a-44e9-8df3-2068258ae9e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/co/com/screenplay/tasks/AddCart.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/co/com/screenplay/tasks/AddCart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/co/com/screenplay/userinterface/ShoppingWebsite.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/co/com/screenplay/userinterface/ShoppingWebsite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/Shopping#20of#20a#20dress#20in#20web#20shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/Shopping#20of#20a#20dress#20in#20web#20shop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/co.com.screenplay.runners.ShopDress.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/co.com.screenplay.runners.ShopDress.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/co.com.screenplay.runners.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/co.com.screenplay.runners.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/test/features/shop_dress.feature" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/features/shop_dress.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-Shopping#20of#20a#20dress#20in#20web#20shop.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-Shopping#20of#20a#20dress#20in#20web#20shop.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-co.com.screenplay.runners.ShopDress.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-co.com.screenplay.runners.ShopDress.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/screenplay/tasks/AddCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/tasks/AddCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/screenplay/userinterface/ShoppingWebsite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/userinterface/ShoppingWebsite.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -46,7 +72,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/co/com/screenplay/runners/ShopDress.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
+            <state relative-caret-position="220">
               <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -58,7 +84,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/co/com/screenplay/stepdefinitions/ShopDressStepDefinition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
+            <state relative-caret-position="540">
               <caret line="35" column="61" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -70,13 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/co/com/screenplay/tasks/AddCart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="22" column="130" selection-start-line="22" selection-start-column="130" selection-end-line="22" selection-end-column="130" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
-                <element signature="e#332#333#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -84,8 +105,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7" selection-start-column="7" selection-end-column="7" />
+            <state relative-caret-position="20">
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -93,14 +114,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/co/com/screenplay/tasks/Select.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="160">
               <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
-                <element signature="e#355#356#0" expanded="true" />
-                <element signature="e#389#390#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,8 +138,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/co/com/screenplay/userinterface/ShoppingWebsite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="16" column="56" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="56" />
+            <state relative-caret-position="406">
+              <caret line="60" column="30" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -213,6 +230,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.poratu.idea.plugins.tomcat.setting.TomcatSettingConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -273,34 +291,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ShopDress - 2019.08.22 at 23h 25m 23s.xml">
-      <configuration name="ShopDress" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="ShopDress - 2019.08.22 at 23h 28m 04s.xml">
-      <configuration name="ShopDress" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="ShopDress - 2019.08.22 at 23h 29m 35s.xml">
-      <configuration name="ShopDress" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="ShopDress - 2019.08.22 at 23h 30m 11s.xml">
-      <configuration name="ShopDress" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="ShopDress - 2019.08.22 at 23h 36m 24s.xml">
-      <configuration name="ShopDress" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="ShopDress - 2019.08.22 at 23h 37m 10s.xml">
-      <configuration name="ShopDress" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="ShopDress - 2019.08.22 at 23h 38m 34s.xml">
-      <configuration name="ShopDress" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="ShopDress - 2019.08.22 at 23h 39m 10s.xml">
-      <configuration name="ShopDress" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="ShopDress - 2019.08.22 at 23h 42m 34s.xml">
       <configuration name="ShopDress" configurationId="GradleRunConfiguration" />
     </history-entry>
     <history-entry file="ShopDress - 2019.08.22 at 23h 45m 53s.xml">
+      <configuration name="ShopDress" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ShopDress - 2019.08.23 at 15h 38m 11s.xml">
+      <configuration name="ShopDress" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ShopDress - 2019.08.23 at 15h 39m 16s.xml">
+      <configuration name="ShopDress" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ShopDress - 2019.08.23 at 15h 43m 35s.xml">
+      <configuration name="ShopDress" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ShopDress - 2019.08.23 at 15h 44m 41s.xml">
+      <configuration name="ShopDress" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ShopDress - 2019.08.23 at 15h 49m 18s.xml">
+      <configuration name="ShopDress" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ShopDress - 2019.08.23 at 15h 51m 24s.xml">
+      <configuration name="ShopDress" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ShopDress - 2019.08.23 at 15h 53m 28s.xml">
+      <configuration name="ShopDress" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ShopDress - 2019.08.23 at 15h 54m 22s.xml">
       <configuration name="ShopDress" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
@@ -308,7 +326,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20989583" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -356,6 +374,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.141.5/2389197ede609d79c12de4a628374e0f69c6c1c4/selenium-api-3.141.5-sources.jar!/org/openqa/selenium/WebElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/serenity.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -372,7 +397,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/co/com/screenplay/runners/ShopDress.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
+        <state relative-caret-position="220">
           <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -380,10 +405,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/test/java/co/com/screenplay/stepdefinitions/ShopDressStepDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="83" selection-start-line="19" selection-start-column="83" selection-end-line="19" selection-end-column="83" />
+        <state relative-caret-position="540">
+          <caret line="35" column="61" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/com/screenplay/tasks/Select.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -397,41 +435,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/co/com/screenplay/tasks/Select.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.141.5/2389197ede609d79c12de4a628374e0f69c6c1c4/selenium-api-3.141.5-sources.jar!/org/openqa/selenium/WebElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/co/com/screenplay/stepdefinitions/ShopDressStepDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="35" column="61" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="380">
+          <caret line="19" column="83" selection-start-line="19" selection-start-column="83" selection-end-line="19" selection-end-column="83" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/co/com/screenplay/userinterface/ShoppingWebsite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="16" column="56" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="56" />
+        <state relative-caret-position="406">
+          <caret line="60" column="30" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -440,20 +454,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/co/com/screenplay/tasks/AddCart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="22" column="130" selection-start-line="22" selection-start-column="130" selection-end-line="22" selection-end-column="130" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        <state relative-caret-position="20">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>

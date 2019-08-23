@@ -16,25 +16,13 @@ public class ShoppingWebsite extends PageObject {
             .the("Lista de vestidos disponibles")
             .located(By.className("product_list grid row"));
 
-    public static final Target ADD_CART = Target
-            .the("Botón que agrega el elemento al carrito de compras")
-            .located(By.xpath("//*[@data-id-product=\"4\" and starts-with(@class, \"button\")]"));
-
-    public static final Target SEND_DRESS_PAGE = Target
-            .the("Indicador para redireccionar a la página del vestido")
-            .located(By.id("bigpic"));
-
     public static final Target PROCEED_TO_CHECKOUT = Target
             .the("Botón para proceder a realizar la compra del carrito cargado")
             .located(By.cssSelector("a[title=\"Proceed to checkout\"]"));
 
     public static final Target PROCEED_TO_CHECKOUT_IN_CART = Target
             .the("Botón para dar siguiente cuando se está en el carro")
-            .located(By.className("button btn btn-default standard-checkout button-medium"));
-
-    public static final Target STEP_CART = Target
-            .the("¨Paso actual en el que se encuentra el carrito")
-            .located(By.className("page-heading"));
+            .located(By.xpath("//p[@class=\"cart_navigation clearfix\"]/a[@title=\"Proceed to checkout\"]"));
 
     public static final Target EMAIL = Target
             .the("Email de usuario")
@@ -70,6 +58,6 @@ public class ShoppingWebsite extends PageObject {
 
     public static final Target CONFIRM_ORDER_BTN = Target
             .the("Botón para confirmar la orden")
-            .located(By.className("button btn btn-default button-medium"));
+            .located(By.xpath("//p[@id=\"cart_navigation\"]/button"));
 
 }

@@ -6,6 +6,7 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
+import net.serenitybdd.screenplay.actions.Enter;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebElement;
@@ -17,6 +18,7 @@ public class AddCart implements Task {
 
     private double maxValue = 0;
     private int lastPos;
+
     public static AddCart dress() {
         return Tasks.instrumented(AddCart.class);
     }
@@ -27,11 +29,9 @@ public class AddCart implements Task {
         for (int i = 0; i < spans.size(); i++) {
             String[] realValue = spans.get(i).getAttribute("innerHTML").trim().split("[$]", 0);
             for (String value: realValue) {
-                if(value != null && !value.isEmpty()) {
-                    if (Double.parseDouble(value) > maxValue) {
-                        maxValue = Double.parseDouble(value);
-                        lastPos = i;
-                    }
+                if((value != null && !value.isEmpty()) && (Double.parseDouble(value) > maxValue)) {
+                    maxValue = Double.parseDouble(value);
+                    lastPos = i;
                 }
             }
         }
@@ -41,6 +41,13 @@ public class AddCart implements Task {
         actor.attemptsTo(Click.on(ShoppingWebsite.ADD_CART_BTN));
         actor.attemptsTo(Click.on(ShoppingWebsite.PROCEED_TO_CHECKOUT));
         actor.attemptsTo(Click.on(ShoppingWebsite.PROCEED_TO_CHECKOUT_IN_CART));
-
+        actor.attemptsTo(Enter.theValue("aaa1@gmail.com").into(ShoppingWebsite.EMAIL));
+        actor.attemptsTo(Enter.theValue("ppusuario").into(ShoppingWebsite.PASSWORD));
+        actor.attemptsTo(Click.on(ShoppingWebsite.SUBMIT_LOGIN));
+        actor.attemptsTo(Click.on(ShoppingWebsite.PROCEED_TO_CHECKOUT_ADDRESESS));
+        actor.attemptsTo(Click.on(ShoppingWebsite.TERMS_CHK));
+        actor.attemptsTo(Click.on(ShoppingWebsite.PROCEED_TO_CHECKOUT_SHIPPING));
+        actor.attemptsTo(Click.on(ShoppingWebsite.PAY_BY_BANK_WIRE));
+        actor.attemptsTo(Click.on(ShoppingWebsite.CONFIRM_ORDER_BTN));
     }
 }
