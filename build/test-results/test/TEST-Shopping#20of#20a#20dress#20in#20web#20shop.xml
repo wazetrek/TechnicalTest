@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Shopping of a dress in web shop" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-23T21:29:19" hostname="WAZETREK" time="35.483">
+<testsuite name="Shopping of a dress in web shop" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-23T22:25:59" hostname="WAZETREK" time="32.583">
   <properties/>
-  <testcase name="buy a dress without login" classname="Shopping of a dress in web shop" time="35.483"/>
+  <testcase name="buy a dress without login" classname="Shopping of a dress in web shop" time="32.583"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Aug 23, 2019 4:29:20 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+  <system-err><![CDATA[Aug 23, 2019 5:26:00 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}) on port 2687
+Starting ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}) on port 25335
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1566595764.659][WARNING]: Timed out connecting to Chrome, retrying...
-Aug 23, 2019 4:29:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1566599164.101][WARNING]: Timed out connecting to Chrome, retrying...
+Aug 23, 2019 5:26:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>

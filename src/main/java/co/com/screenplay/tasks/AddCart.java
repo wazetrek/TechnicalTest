@@ -26,6 +26,7 @@ public class AddCart implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         List<WebElement> spans = Serenity.getWebdriverManager().getCurrentDriver().findElements(By.xpath("//div[@class='left-block']//div[@class='content_price']/span[@class='price product-price']"));
+//        spans.stream().forEach((element) -> {});
         for (int i = 0; i < spans.size(); i++) {
             String[] realValue = spans.get(i).getAttribute("innerHTML").trim().split("[$]", 0);
             for (String value: realValue) {
@@ -35,8 +36,9 @@ public class AddCart implements Task {
                 }
             }
         }
-        List<WebElement> aa = Serenity.getWebdriverManager().getCurrentDriver().findElements(By.xpath("//div[@class='right-block']//a[@class=\"product-name\"]"));
-        aa.get(lastPos).click();
+        List<WebElement> productName = Serenity.getWebdriverManager().getCurrentDriver().findElements(By.xpath("//div[@class='right-block']//a[@class=\"product-name\"]"));
+//        Redireccionamos a la página del producto ya que si lo hacemos con preview esto nos arrojaría un popup
+        productName.get(lastPos).click();
 
         actor.attemptsTo(Click.on(ShoppingWebsite.ADD_CART_BTN));
         actor.attemptsTo(Click.on(ShoppingWebsite.PROCEED_TO_CHECKOUT));
