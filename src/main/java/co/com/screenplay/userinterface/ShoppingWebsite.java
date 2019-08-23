@@ -60,4 +60,8 @@ public class ShoppingWebsite extends PageObject {
             .the("Botón para confirmar la orden")
             .located(By.xpath("//p[@id=\"cart_navigation\"]/button"));
 
+    public static final Target SUCCESFULL_PURCHASE = Target
+            .the("Mensaje de compra exitosa")
+            .located(By.xpath("//p[@class=\"cheque-indent\"]/strong"));
+
 }
