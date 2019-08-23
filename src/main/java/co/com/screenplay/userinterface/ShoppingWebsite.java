@@ -20,6 +20,10 @@ public class ShoppingWebsite extends PageObject {
             .the("Botón que agrega el elemento al carrito de compras")
             .located(By.xpath("//*[@data-id-product=\"4\" and starts-with(@class, \"button\")]"));
 
+    public static final Target SEND_DRESS_PAGE = Target
+            .the("Indicador para redireccionar a la página del vestido")
+            .located(By.id("bigpic"));
+
     public static final Target PROCEED_TO_CHECKOUT = Target
             .the("Botón para proceder a realizar la compra del carrito cargado")
             .located(By.cssSelector("a[title=\"Proceed to checkout\"]"));
@@ -47,6 +51,10 @@ public class ShoppingWebsite extends PageObject {
     public static final Target PROCEED_TO_CHECKOUT_ADDRESESS = Target
             .the("Botón para pasar al siguiente paso cuando se esta seleccionado la dirección")
             .located(By.name("processAddress"));
+
+    public static final Target ADD_CART_BTN = Target
+            .the("Botón para agregar el vestido al carro")
+            .located(By.xpath("//p[@id=\"add_to_cart\"]/button"));
 
     public static final Target TERMS_CHK = Target
             .the("Botón check para aceptar los terminos de servicio")

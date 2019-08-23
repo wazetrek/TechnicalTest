@@ -5,32 +5,42 @@ import net.serenitybdd.core.Serenity;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
+import net.serenitybdd.screenplay.actions.Click;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 
 import java.util.List;
 
 public class AddCart implements Task {
 
     private double maxValue = 0;
+    private int lastPos;
     public static AddCart dress() {
         return Tasks.instrumented(AddCart.class);
     }
 
     @Override
     public <T extends Actor> void performAs(T actor) {
-        List<WebElement> allDresses = Serenity.getWebdriverManager().getCurrentDriver().findElements(By.xpath("//div[@class='right-block']//div[@class='content_price']/span[@class='price product-price']"));
-        for (int i = 0; i < allDresses.size(); i++) {
-            String[] realValue = allDresses.get(i).getAttribute("innerHTML").trim().split("[$]", 0);
+        List<WebElement> spans = Serenity.getWebdriverManager().getCurrentDriver().findElements(By.xpath("//div[@class='left-block']//div[@class='content_price']/span[@class='price product-price']"));
+        for (int i = 0; i < spans.size(); i++) {
+            String[] realValue = spans.get(i).getAttribute("innerHTML").trim().split("[$]", 0);
             for (String value: realValue) {
                 if(value != null && !value.isEmpty()) {
                     if (Double.parseDouble(value) > maxValue) {
                         maxValue = Double.parseDouble(value);
-
+                        lastPos = i;
                     }
                 }
             }
         }
+        List<WebElement> aa = Serenity.getWebdriverManager().getCurrentDriver().findElements(By.xpath("//div[@class='right-block']//a[@class=\"product-name\"]"));
+        aa.get(lastPos).click();
+
+        actor.attemptsTo(Click.on(ShoppingWebsite.ADD_CART_BTN));
+        actor.attemptsTo(Click.on(ShoppingWebsite.PROCEED_TO_CHECKOUT));
+        actor.attemptsTo(Click.on(ShoppingWebsite.PROCEED_TO_CHECKOUT_IN_CART));
+
     }
 }
